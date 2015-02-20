@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Sources -->
+  <project path="device/lge/p970" name="Alphapixels/android_device_lge_p970" remote="github" revision="lollipop" />
+  <project path="kernel/lge/p970" name="Alphapixels/android_kernel_lge_p970" remote="github" revision="lollipop" />
+  <project path="vendor/lge/p970" name="Alphapixels/android_vendor_lge_p970" remote="github" revision="master" />
+  <!-- End Device Sources -->
+
+  <!-- Linaro Toolchain -->
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="linaro-4.9-arm-eabi" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="linaro-4.9-arm-linux-androideabi" /> 
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="linaro-4.8-arm-eabi" /> 
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="aosp-4.7-arm-eabi" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="aosp-4.7-arm-linux-androideabi" /> 
+  <!-- End Linaro Toolchain --> 
+
+  <!-- Extra Required Stuff -->
+ <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
+ <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" remote="github" groups="broadcom_wlan" />
+
+</manifest>
