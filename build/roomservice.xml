@@ -18,6 +18,9 @@
 
   <!-- Extra Required Stuff -->
  <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
- <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" remote="github" groups="broadcom_wlan" />
+ <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" revision="n-2.0" remote="github" groups="broadcom_wlan" />
+
+  <!-- OMAP updates -->
+ <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.0" remote="github" groups="broadcom_wlan" />
 
 </manifest>
