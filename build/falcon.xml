@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-14.0"/>
+ <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="cm-14.0"/>
+ <project name="Cyanogenmod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-14.0" />
+ <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.0" />
+</manifest>
